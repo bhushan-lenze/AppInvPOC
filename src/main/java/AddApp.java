@@ -6,5 +6,6 @@ public class AddApp {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\kalbande\\Desktop\\drivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://apps.example.com/apps");
+        System.out.println("App Inventory Opened");
     }
 }
